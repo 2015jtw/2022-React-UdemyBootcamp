@@ -9,6 +9,7 @@ function remove(items, item) {
             return { ...items.slice(0, i), ...items.slice(i + 1) }
         }
     }
+    console.log('let this work');
 }
 
 export { choice, remove };
